@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet"  href="css/style.css">
+	<title>javascript</title>
+</head>
+<body>
+
+   
+   	 <div class="calculator">
+   	 <input type="text" id="result">
+   	 <button onclick="one()">1</button>
+   	 <button onclick="two()">2</button>
+   	 <button onclick="three()">3</button>
+   	 <button onclick="four()">4</button>
+   	 <button onclick="five()">5</button>
+   	 <button onclick="six()">6</button>
+   	 <button onclick="seven()">7</button>
+   	 <button onclick="eight()">8</button>
+   	 <button onclick="nine()">9</button>
+   	 <button onclick="zero()">0</button>
+   	  <button onclick="add()">+</button>
+   	   <button onclick="sub()">-</button>
+   	    <button onclick="mul()">*</button>
+   	     <button onclick="dev()">/</button>
+   	      <button onclick="equal()">=</button>
+   	 </div>
+   
+
+
+   <script>
+   	
+
+      function one(){
+      	document.getElementById('result').value += 1;
+      }
+
+      function two(){
+      	document.getElementById('result').value += 2;
+      	}
+      	function three(){
+      	document.getElementById('result').value += 3;
+      	}
+      	function four(){
+      	document.getElementById('result').value += 4;
+      	}
+      	function five(){
+      	document.getElementById('result').value += 5;
+      	}
+      	function six(){
+      	document.getElementById('result').value += 6;
+      	}
+      	function seven(){
+      	document.getElementById('result').value += 7;
+      	}
+      	function eight(){
+      	document.getElementById('result').value += 8;
+      	}
+      	function nine(){
+      	document.getElementById('result').value += 9;
+      	}
+      	function zero(){
+      	document.getElementById('result').value += 0;
+      	}
+      	function add(){
+      	document.getElementById('result').value += '+';
+      	}
+      	function mul(){
+      	document.getElementById('result').value += '-';
+      	}
+      	function dev(){
+      	document.getElementById('result').value += '/';
+      	}
+      	function equal(){
+      	document.getElementById('result').value = eval(document.getElementById('result').value);
+      	}
+      
+   	   
+   </script>
+
+
+</body>
+</html>
